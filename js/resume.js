@@ -136,13 +136,4 @@
 }();
 
 
-function fixPagesHeight() {
-    $('.swiper-slide,.swiper-container').css({
-        height: $(window).height(),
-    })
-}
-$(window).on('resize', function() {
-    fixPagesHeight();
-})
-fixPagesHeight();
 

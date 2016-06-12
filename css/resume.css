@@ -516,7 +516,7 @@ img {
     width: .2rem;
     height: .2rem;
     position: absolute;
-    bottom: 7%;
+    bottom: 3%;
     left: 50%;
     margin-left: -.07rem;
     border-left: .07rem solid #fff;
@@ -566,6 +566,7 @@ img {
     right: .3rem;
     background: url("../img/music.svg") no-repeat center;
     background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
     display: none;
 
 }
@@ -597,31 +598,429 @@ img {
 
 .swiper-container .swiper-slide.pageSec{
     background: url("../img/01.png@sceneview") no-repeat center;
-    background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
 }
 .pageSec .solidBorder{
-    width: 2rem;
+    width: 2.08rem;
     height: .66rem;
     border: 1px dashed #fff;
     position: absolute;
     top: 20%;
     left: 50%;
-    margin-left: -1rem;
+    margin-left: -1.04rem;
+    text-align: center;
+    line-height: .66rem;
+    opacity: 0;
+
 
 }
+#pageSec .solidBorder{
+   animation:rotateIn 1s 1 forwards;
+   -webkit-animation:rotateIn 1s 1 forwards;
+}
+@-webkit-keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+.pageSec .person{
+
+
+    font-family: 宋体;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    font-size: .4rem;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    opacity: 0;
+
+}
+#pageSec .person{
+
+    animation:bounceIn 1s .5s 1 forwards;
+    -webkit-animation:bounceIn 1s .5s 1 forwards;
+}
+@-webkit-keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes bounceIn {
+    from, 20%, 40%, 60%, 80%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
+    }
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
+    80% {
+        -webkit-transform: scale3d(.97, .97, .97);
+        transform: scale3d(.97, .97, .97);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+.pageSec .about{
+    position: absolute;
+    top:27%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: .28rem;
+    letter-spacing: .1rem;
+    opacity: 0;
+}
+#pageSec .about{
+    animation:fadeInDown 1s 1 forwards;
+    -webkit-animation:fadeInDown 1s 1 forwards;
+}
+.pageSec .content{
+    position: absolute;
+
+    width: 5.68rem;
+    height: 6.44rem;
+    background: url("../img/yq0KYFb9FMyABMSzAAAkJrRbAfM582.png@sceneview") no-repeat center center;
+    background-size: 5.68rem 6.44rem;
+    -webkit-background-size: 5.68rem 6.44rem;
+    left: 50%;
+    margin-left: -2.84rem;
+    top: 32%;
+    opacity: 0;
+
+
+}
+#pageSec .content{
+    animation:bounceInUp 1s .5s forwards;
+    -webkit-animation:bounceInUp 1s .5s forwards;
+}
+@-webkit-keyframes bounceInUp {
+    from, 60%, 75%, 90%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceInUp {
+    from, 60%, 75%, 90%, to {
+        -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 3000px, 0);
+        transform: translate3d(0, 3000px, 0);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0);
+    }
+
+    75% {
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0);
+    }
+
+    90% {
+        -webkit-transform: translate3d(0, -5px, 0);
+        transform: translate3d(0, -5px, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.pageSec .content .nameBox{
+    position: absolute;
+    top: 9%;
+    width: 100%;
+    text-align: center;
+    font-size: .48rem;
+    height: .62rem;
+    line-height: .62rem;
+
+}
+.pageSec .content .nameBox .name{
+    display: block;
+    margin: 0 auto;
+    width: 2rem;
+    background:rgb(182,250,240);
+    opacity: 0;
+}
+#pageSec .content .nameBox .name{
+    opacity: 1;
+    transition: 1s 1s ;
+    -webkit-transition: 1s 1.5s ;
+}
+.nameBox img{
+    width: .7rem;
+    height: .38rem;
+    position: absolute;
+    top:.1rem;
+    opacity: 0;
+
+}
+.nameBox img.imgl{
+
+    left: 1.15rem;
+}
+#pageSec img.imgl{
+    animation:fadeInRight 1.5s 1.5s 1 forwards;
+    -webkit-animation:fadeInRight 1.5s 1.5s 1 forwards;
+}
+
+.nameBox img.imgr{
+
+
+    right: 1.15rem;
+}
+#pageSec img.imgr{
+    animation:fadeInLeft 1.5s 1.5s 1 forwards;
+    -webkit-animation:fadeInLeft 1.5s 1.5s 1 forwards;
+}
+.pageSec ul{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 25%;
+    text-align: center;
+    overflow: hidden;
+
+}
+.pageSec ul li{
+    margin: .2rem auto;
+    width: 4.36rem;
+    height: .54rem;
+    line-height: .54rem;
+    background: url("../img/info.png@sceneview") no-repeat center;
+    background-size: 100% 100%;
+    -webkit-background-size:100% 100%;
+    font-size: .28rem;
+    text-align: center;
+    opacity: 0;
+
+}
+#pageSec ul li:nth-child(1){
+    animation:bounceInUp 1s 2s forwards;
+    -webkit-animation:bounceInUp 1s 2s forwards;
+}
+#pageSec ul li:nth-child(2){
+    animation:bounceInUp 1s 2.2s forwards;
+    -webkit-animation:bounceInUp 1s 2.2s forwards;
+}
+#pageSec ul li:nth-child(3){
+    animation:bounceInUp 1s 2.4s forwards;
+    -webkit-animation:bounceInUp 1s 2.4s forwards;
+}
+#pageSec ul li:nth-child(4){
+    animation:bounceInUp 1s 2.6s forwards;
+    -webkit-animation:bounceInUp 1s 2.6s forwards;
+}
+#pageSec ul li:nth-child(5){
+    animation:bounceInUp 1s 2.8s forwards;
+    -webkit-animation:bounceInUp 1s 2.8s forwards;
+}
+
+
+
 .swiper-container .swiper-slide.pageThi{
     background: url("../img/02.png@sceneview") no-repeat center;
-    background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
 }
+.pageThi .solidBorder{
+    width: 2.08rem;
+    height: .66rem;
+    border: 1px dashed #fff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -1.04rem;
+    text-align: center;
+    line-height: .66rem;
+    opacity: 0;
+
+
+}
+
+#pageThi .solidBorder{
+    animation:rotateIn 1s 1 forwards;
+    -webkit-animation:rotateIn 1s 1 forwards;
+}
+.pageThi .person{
+
+    font-family: 宋体;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    font-size: .4rem;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    opacity: 0;
+
+}
+#pageThi .person{
+
+    animation:bounceIn 1s .5s 1 forwards;
+    -webkit-animation:bounceIn 1s .5s 1 forwards;
+}
+.pageThi .about{
+    position: absolute;
+    top:27%;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: .28rem;
+    letter-spacing: .1rem;
+    opacity: 0;
+}
+#pageThi .about{
+    animation:fadeInDown 1s 1 forwards;
+    -webkit-animation:fadeInDown 1s 1 forwards;
+}
+
+
+
+
+
 .swiper-container .swiper-slide.pageFou{
     background: url("../img/03.png@sceneview") no-repeat center;
-    background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
 }
 .swiper-container .swiper-slide.pageFiv{
     background: url("../img/04.png@sceneview") no-repeat center;
-    background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
 }
 .swiper-container .swiper-slide.pageSix{
     background: url("../img/05.jpg@sceneview") no-repeat center;
-    background-size: cover;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
 }
