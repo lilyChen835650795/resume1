@@ -105,24 +105,16 @@
 !function () {
     var audioBox=document.getElementsByClassName('audioBox')[0];
     var audio=audioBox.getElementsByTagName('audio')[0];
-
     //延迟播放音频文件，先让其他资源加载
     setTimeout(function () {
         audio.play();
-
         audio.addEventListener('canplay',function () {
-
             audioBox.style.display='block';
             audioBox.className+=' audioMove';
-
-
         },false);
     },500);
 
-
-
     audioBox.addEventListener('click',function () {
-
         if(audio.paused)
         {
             audio.play();
