@@ -605,7 +605,7 @@ img {
     height: .66rem;
     border: 1px dashed #fff;
     position: absolute;
-    top: 2.2rem;
+    top: 19%;
     left: 50%;
     margin-left: -1.04rem;
     text-align: center;
@@ -752,7 +752,7 @@ img {
 }
 .pageSec .about{
     position: absolute;
-    top: 3rem;
+    top: 28%;
     width: 100%;
     text-align: center;
     color: #ffffff;
@@ -766,15 +766,14 @@ img {
 }
 .pageSec .content{
     position: absolute;
-
-    width: 5.68rem;
-    height: 6.44rem;
+    width: 5rem;
+    height: 6rem;
     background: url("../img/yq0KYFb9FMyABMSzAAAkJrRbAfM582.png@sceneview") no-repeat center center;
     background-size: 5.68rem 6.44rem;
-    -webkit-background-size: 5.68rem 6.44rem;
+    -webkit-background-size: 100% 100%;
     left: 50%;
-    margin-left: -2.84rem;
-    top: 3.6rem;
+    margin-left: -2.5rem;
+    top: 35%;
     opacity: 0;
 
 
@@ -884,7 +883,7 @@ img {
 }
 .nameBox img.imgl{
 
-    left: 1.15rem;
+    left: .9rem;
 }
 #pageSec img.imgl{
     animation:fadeInRight 1.5s 1.5s 1 forwards;
@@ -894,7 +893,7 @@ img {
 .nameBox img.imgr{
 
 
-    right: 1.15rem;
+    right: .9rem;
 }
 #pageSec img.imgr{
     animation:fadeInLeft 1.5s 1.5s 1 forwards;
@@ -907,7 +906,7 @@ img {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding-top: 25%;
+    padding-top: 28%;
     text-align: center;
     overflow: hidden;
 
@@ -958,7 +957,7 @@ img {
     height: .66rem;
     border: 1px dashed #fff;
     position: absolute;
-    top: 2.2rem;
+    top: 19%;
     left: 50%;
     margin-left: -1.04rem;
     text-align: center;
@@ -991,7 +990,7 @@ img {
 }
 .pageThi .about{
     position: absolute;
-    top:3rem;
+    top:28%;
     width: 100%;
     text-align: center;
     color: #ffffff;
@@ -1007,7 +1006,7 @@ img {
     width: 2.48rem;
     height: 6.42rem;
     position: absolute;
-    top: 4rem;
+    top: 34%;
     left: 1rem;
     background: url("../img/skill.png@sceneview") no-repeat center;
     -webkit-background-size:100% 100%;
@@ -1161,7 +1160,7 @@ img {
     height: .66rem;
     border: 1px dashed #fff;
     position: absolute;
-    top: 2.2rem;
+    top: 19%;
     left: 50%;
     margin-left: -1.04rem;
     text-align: center;
@@ -1194,7 +1193,7 @@ img {
 }
 .pageFou .about{
     position: absolute;
-    top:3rem;
+    top:28%;
     width: 100%;
     text-align: center;
     color: #ffffff;
@@ -1209,7 +1208,7 @@ img {
 
 .pageFou .line{
     position: absolute;
-    top: 4.2rem;
+    top: 38%;
     background: rgba(255,255,255,.5);
     width: .05rem;
     height: 0rem;
@@ -1224,24 +1223,24 @@ img {
 }
 .pageFou .tri1{
 
-    top: 4.8rem;
+    top: 42%;
 
 
 }
 .pageFou .tri2{
 
-    top: 5.9rem;
+    top: 54%;
 
 
 }
 .pageFou .tri3{
 
-    top: 7rem;
+    top: 66%;
 
 }
 .pageFou .tri4{
 
-    top: 8.1rem;
+    top: 78%;
 
 }
 #pageFou .line{
@@ -1280,35 +1279,35 @@ img {
     opacity: 0;
 }
 .pageFou p:nth-of-type(1){
-    top: 4.8rem;
+    top: 42%;
     left:.7rem;
 }
 .pageFou p:nth-of-type(5){
-    top: 4.8rem;
+    top: 42%;
     left:2.5rem;
 }
 .pageFou p:nth-of-type(2){
-    top: 5.9rem;
+    top: 54%;
     left:.7rem;
 }
 .pageFou p:nth-of-type(6){
-    top: 5.9rem;
+    top: 54%;
     left:2.5rem;
 }
 .pageFou p:nth-of-type(3){
-    top: 7rem;
+    top: 66%;
     left:.7rem;
 }
 .pageFou p:nth-of-type(7){
-    top: 7rem;
+    top: 66%;
     left:2.5rem;
 }
 .pageFou p:nth-of-type(4){
-    top: 8.1rem;
+    top: 78%;
     left:.7rem;
 }
 .pageFou p:nth-of-type(8){
-    top: 8.1rem;
+    top: 78%;
     left:2.5rem;
 }
 #pageFou p:nth-of-type(1){
@@ -1359,7 +1358,7 @@ img {
     height: .66rem;
     border: 1px dashed #fff;
     position: absolute;
-    top: 2.2rem;
+    top: 19%;
     left: 50%;
     margin-left: -1.04rem;
     text-align: center;
@@ -1392,7 +1391,7 @@ img {
 }
 .pageFiv .about{
     position: absolute;
-    top:3rem;
+    top:28%;
     width: 100%;
     text-align: center;
     color: #ffffff;
@@ -1406,7 +1405,7 @@ img {
 }
 .pageFiv .Box{
     position: absolute;
-    top:3.5rem;
+    top:32%;
     left: 50%;
     width: 4rem;
     height: 7rem;
@@ -1465,7 +1464,7 @@ img {
     border-radius: .2rem;
     line-height: .4rem;
 
-    top: 3.2rem;
+    top: 3rem;
     left: .9rem;
 }
 .pageFiv .Box>div:nth-child(6){
@@ -1474,13 +1473,13 @@ img {
     border-radius: .2rem;
     line-height: .4rem;
 
-    top: 3.2rem;
+    top: 3rem;
     right: .9rem;
 }
 .pageFiv .Box>div:nth-child(7){
     width: 100%;
     height: 2rem;
-    bottom: 0;
+    bottom: 3%;
     border-radius: .2rem;
 }
 #pageFiv .Box>div:nth-child(1){
@@ -1604,7 +1603,7 @@ img {
     height: .66rem;
     border: 1px dashed #fff;
     position: absolute;
-    top: 2.2rem;
+    top: 19%;
     left: 50%;
     margin-left: -1.04rem;
     text-align: center;
@@ -1637,7 +1636,7 @@ img {
 }
 .pageSix .about{
     position: absolute;
-    top:3rem;
+    top:28%;
     width: 100%;
     text-align: center;
     color:#fff;
@@ -1653,7 +1652,7 @@ img {
     width: 2.82rem;
     height: 2.82rem;
     position: absolute;
-    top: 4rem;
+    top: 36%;
     left: 50%;
     margin-left: -1.41rem;
     opacity: 0;
@@ -1697,11 +1696,11 @@ img {
     width: 100%;
     text-align: center;
     position: absolute;
-    top: 7.3rem;
+    top: 72%;
     opacity: 0;
 }
 .pageSix .qq{
-    top: 7.8rem;
+    top: 76%;
 }
 #pageSix .tel{
 
@@ -1756,7 +1755,7 @@ img {
 
 .pageSix .border{
     position: absolute;
-    top: 9rem;
+    top: 87%;
     width: 5.43rem;
     height: .31rem;
     background: url("../img/line.png@sceneview") no-repeat center;
