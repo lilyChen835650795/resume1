@@ -5,7 +5,9 @@
     var winW=document.documentElement.clientWidth;
     document.documentElement.style.fontSize=winW/desW*100+'px';
 }(640);
-
+$(function () {
+    $('body').css('opacity',1);
+});
 
 //滑屏区域进行初始化设置
 !function () {
